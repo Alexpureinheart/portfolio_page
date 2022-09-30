@@ -1,0 +1,32 @@
+nav {
+    margin: -3% -2% 0 -2%;
+    background-color: #1C4CAA;
+    color: #fff;
+}
+
+
+body:not(nav){
+    background-color: #F398A9;
+}
+
+
+nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    padding-top: -1em;
+}
+
+nav li{
+    font-size: 32px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+nav h1{
+    padding: 1rem;
+    font-size: 40px;
+    margin-left: 2%;
+}
+
