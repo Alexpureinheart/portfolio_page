@@ -30,3 +30,31 @@ nav h1{
     margin-left: 2%;
 }
 
+#about_me {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#about_me h2{
+    position: relative;
+    top: -1rem;
+    left: 40px;
+    font-size: 40px;
+}
+
+#about_me p {
+    max-width: 60%;
+    min-width: 60%;
+    font-size: 32px;
+    
+}
+
+#about_me img {
+    border-radius: 30%;
+    min-width: 30%;
+    max-width: 40%;
+    min-height: 33%;
+    max-height: 33%;
+    
+}
+
