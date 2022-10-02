@@ -63,15 +63,20 @@ nav h1{
     grid-row: 2 / 3;
 }
 
-#about_me figure img {
+#about_me #self-portrait {
     border-radius: 30%;
     min-width: 30%;
     max-width: 70%;
     text-align: center;
+    margin-left: 86px;
 }
 
 #about_me figure figcaption{
     text-align: center;
+}
+
+#about_me figure figcaption img{
+    width: 86px;
 }
 
 
