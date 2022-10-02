@@ -31,8 +31,11 @@ nav h1{
 }
 
 #about_me {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    /* Used for testing ---*/
+   /* border-style: solid;
+    border-width: 1em;
+    border-color: red; */
 }
 
 #about_me h2{
@@ -40,21 +43,36 @@ nav h1{
     top: -1rem;
     left: 40px;
     font-size: 40px;
+    grid-column: 1 / 3;
+    grid-row: 1;
+    margin-bottom: -25px;
 }
 
 #about_me p {
-    max-width: 60%;
-    min-width: 60%;
-    font-size: 32px;
-    
+    font-size: 25px;
+    grid-column: 1 / span 2;
+    grid-row: 2 / 4;
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
 
-#about_me img {
+#about_me figure {
+   /* min-height: 33%;
+    max-height: 33%; */ 
+    grid-column: 4 / 4;
+    grid-row: 2 / 3;
+}
+
+#about_me figure img {
     border-radius: 30%;
     min-width: 30%;
-    max-width: 40%;
-    min-height: 33%;
-    max-height: 33%;
-    
+    max-width: 70%;
+    text-align: center;
 }
+
+#about_me figure figcaption{
+    text-align: center;
+}
+
+
 
